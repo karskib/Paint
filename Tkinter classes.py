@@ -87,7 +87,7 @@ class Window:
         else:
             self.x1 = event.x
             self.y1 = event.y
-            line = self.Canvas.create_line(self.x0, self.y0, self.x1, self.y1, fill=self.colour)
+            line = self.Canvas.create_line(self.x0, self.y0, self.x1, self.y1, fill=self.colour, width = 3)
             self.click_counter = 0
 
 
