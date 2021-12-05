@@ -11,7 +11,7 @@ class Window:
 
     def __init__(self, master):
         colours = ['yellow', 'green', 'red', 'blue', 'black','pink','purple']
-        photo = tk.PhotoImage('users/karolskiba/downloads/image.png')
+
         self.click_counter = 0
         self.colour = ''
         self.size_of_drawing = 2
